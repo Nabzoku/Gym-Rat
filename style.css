@@ -6,15 +6,20 @@ html {
 }
 body {
   background-color: #f8f7ed;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .navbar {
-  width: 100%;
+  width: 90%;
   height: 5%;
   background-color: #29292969;
   display: flex;
   justify-content: space-between;
   position: fixed;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
 }
 .logo {
   display: flex;
